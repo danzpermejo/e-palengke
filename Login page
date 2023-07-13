@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Log In</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="row">
+                <div class="my-image">
+                    <img src="./cart/cart.png" alt="image">
+                </div>
+                    <div class="my-store">
+                        <h1>E-Palengke</h1>
+                        </div>
+                    </div>
+                </div>  
+            </div>    
+        <h2>
+            Get access to your Orders, <br> Whishlist and Recommendations
+        </h2>
+        </nav>
+        <div class="container">
+            <form>
+                    <h3>Sign Up Now!</h3>
+                    <label>Don't have an account? <span><a href="createAcc.html">Sign up</a></span></label>
+                    <input type="text" placeholder="Enter your email">
+                    <input type="password" placeholder="Enter your password">
+                    <input type="phone number or email" placeholder="phone number or email">
+                    <button type="submit">Login</button>
+            </form>
+        </div>
+        <footer>
+            <small>By signing up, I agree to <br><span>Terms & Conditions</span> and <span> Policy</span></small>
+        </footer>
+    </main>
+</body>
+</html>
+
+
+
+
+#CSS ------------------------------------------------------------------
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+main {
+    width: 100vw;
+    height: 100vw;
+    background-color: bisque;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #F0FF42;
+}
+
+nav h1 {
+    color: black;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 14px;
+}
+
+.main-page {
+    padding: 3%;
+}
+
+.row {
+    display: flex;
+}
+.col-1 {
+    flex-basis: 50%;
+}
+.col-1 h1 {
+    margin-top: 250px;
+}
+.col-2 img {
+    width: 400px;
+}
+
+.skills {
+    display: flex;
+}
+
+.skills svg {
+    margin: 50px 14px;
+    width: 30px;
+    cursor: pointer;
+}
